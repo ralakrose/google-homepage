@@ -79,13 +79,11 @@ cursor: pointer;
     height: 25px;
     background-color: whitesmoke;
     color: rgb(88, 87, 87);
-    padding: 0px 0px 10px 0px;
     
   }
   .footer ul li {
     display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 14px;
 
   }
   .footer ul a:hover {
@@ -93,9 +91,24 @@ cursor: pointer;
   }
   .footer-right {
     float: right;
+    padding-left: 27px;
+    padding-bottom: 10px;
   }
   .footer-left {
       float: left;
+      padding-left: 27px;
+      padding-bottom: 10px;
+  }
+  .footer li{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .footer li a {
+    color: grey;
+    font-family: arial,sans-serif;
+  }
+  .footer li a:hover {
+text-decoration: underline;
   }
 
   
