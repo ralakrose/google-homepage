@@ -41,6 +41,10 @@ ul {
       border-radius: 20px;
       padding: 0px;
   }
+  #searchinput:hover{
+    box-shadow: rgb(175, 171, 171);
+    cursor: pointer;
+  }
   .icon {
     padding: 10px;
     background: #fff;
@@ -56,20 +60,20 @@ color: blue;
 cursor: pointer;
   }
   .button {
-      padding: 2px;
-      height: 40px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 6px;
+      height: 36px;
+      font-family: arial,sans-serif;
       border-radius: 5px;
       background-color: whitesmoke;
-      color: darkgrey;
+      color: rgb(110, 108, 108);
       border-width: 1px;
       border-color: whitesmoke;
-      font-weight: bold;
-      font-size: 15px;
+      font-size: 14px;
   }
   .button:hover{
       color: black;
       border-color: black;
+      cursor: pointer;
   }
   .footer{
     position: fixed;
