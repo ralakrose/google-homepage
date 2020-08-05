@@ -23,12 +23,14 @@
       <!--Google logo image-->
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
         <!--Google Search form -->
-        <form action="">
+       <div class="search-container">
+        <form action="" id="searchform" >
 
-            <i class="fa fa-search"></i>
-            <input type="text" name="searchinput" id="searchinput" >
-            <i class="fa fa-microphone"></i>
+           <button id="searchbox-button1"><i class="fa fa-search"></i></button> 
+            <input type="text" name="searchinput" id="searchinput" aria-hidden="true" placeholder="Search google or type url">
+           <button id="searchbox-button2"> <i class="fa fa-microphone"></i></button>
         </form>
+      </div>
         <br>
         <!--Buttons-->
         <button class="button">Google Search</button>
